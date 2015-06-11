@@ -133,7 +133,7 @@ Note: see https://github.com/thomseddon/node-oauth2-server/tree/master/examples/
  - *boolean* **allowed**
      - Indicates whether the grantType is allowed for this clientId
 
-#### saveAccessToken (accessToken, clientId, expires, user, callback)
+#### saveAccessToken (accessToken, clientId, expires, user, deviceToken, callback)
 - *string* **accessToken**
 - *string* **clientId**
 - *date* **expires**
@@ -188,7 +188,7 @@ Note: see https://github.com/thomseddon/node-oauth2-server/tree/master/examples/
 
 ### Required for `refresh_token` grant type
 
-#### saveRefreshToken (refreshToken, clientId, expires, user, callback)
+#### saveRefreshToken (refreshToken, clientId, expires, user, deviceToken, callback)
 - *string* **refreshToken**
 - *string* **clientId**
 - *date* **expires**
