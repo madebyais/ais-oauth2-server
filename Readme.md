@@ -1,4 +1,10 @@
-# Node OAuth2 Server [![Build Status](https://travis-ci.org/thomseddon/node-oauth2-server.png?branch=2.0)](https://travis-ci.org/thomseddon/node-oauth2-server)
+# AIS Oauth2 Server [![Build Status](https://travis-ci.org/thomseddon/node-oauth2-server.png?branch=2.0)](https://github.com/madebyais/ais-oauth2-server)
+
+A customized Node Oauth2 Server for AIS Framework.
+
+Thanks to Thom Seddon for creating Node Oauth2 Server module.
+
+## Node OAuth2 Server [![Build Status](https://travis-ci.org/thomseddon/node-oauth2-server.png?branch=2.0)](https://travis-ci.org/thomseddon/node-oauth2-server)
 
 Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with [express](http://expressjs.com/) in [node.js](http://nodejs.org/)
 
@@ -132,6 +138,7 @@ Note: see https://github.com/thomseddon/node-oauth2-server/tree/master/examples/
 - *string* **clientId**
 - *date* **expires**
 - *object* **user**
+- *string* **deviceToken**
 - *function* **callback (error)**
  - *mixed* **error**
      - Truthy to indicate an error
@@ -186,6 +193,7 @@ Note: see https://github.com/thomseddon/node-oauth2-server/tree/master/examples/
 - *string* **clientId**
 - *date* **expires**
 - *object* **user**
+- *string* **deviceToken**
 - *function* **callback (error)**
  - *mixed* **error**
      - Truthy to indicate an error
@@ -292,8 +300,8 @@ This will then call the following on your model (in this order):
  - getClient (clientId, clientSecret, callback)
  - grantTypeAllowed (clientId, grantType, callback)
  - getUser (username, password, callback)
- - saveAccessToken (accessToken, clientId, expires, user, callback)
- - saveRefreshToken (refreshToken, clientId, expires, user, callback) **(if using)**
+ - saveAccessToken (accessToken, clientId, expires, user, deviceToken, callback)
+ - saveRefreshToken (refreshToken, clientId, expires, user, deviceToken, callback) **(if using)**
 
 Provided there weren't any errors, this will return the following (excluding the `refresh_token` if you've not enabled the refresh_token grant type):
 
@@ -310,10 +318,6 @@ Pragma: no-cache
   "refresh_token":"tGzv3JOkF0XG5Qx2TlKWIA"
 }
 ```
-
-## Changelog
-
-See: https://github.com/thomseddon/node-oauth2-server/blob/master/Changelog.md
 
 ## Credits
 
