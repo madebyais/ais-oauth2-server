@@ -1,19 +1,21 @@
 {
-  "name": "oauth2-server",
-  "description": "Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with express in node.js",
-  "version": "2.4.0",
+  "name": "ais-oauth2-server",
+  "description": "A customized Node Oauth2 Server for AIS Framework. Forked from Thom Seddon - Node Oauth2 Server https://npmjs.org/package/ais-oauth2-server",
+  "version": "1.0.0",
   "keywords": [
+    "ais-oauth",
+    "ais-oauth2",
     "oauth",
     "oauth2"
   ],
   "author": {
-    "name": "Thom Seddon",
-    "email": "thom@seddonmedia.co.uk"
+    "name": "Faris",
+    "email": "faris@appkitchens.com"
   },
   "contributors": [
     {
-      "name": "Thom Seddon",
-      "email": "thom@seddonmedia.co.uk"
+      "name": "Faris",
+      "email": "faris@appkitchens.com"
     }
   ],
   "main": "lib/oauth2server.js",
@@ -41,6 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomseddon/node-oauth2-server.git"
+    "url": "https://github.com/madebyais/ais-oauth2-server.git"
   }
 }
