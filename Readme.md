@@ -9,7 +9,7 @@ Complete, compliant and well tested module for implementing an OAuth2 Server/Pro
 ## Installation
 
 ```
-npm install oauth2-server
+npm install ais-oauth2-server
 ```
 
 ## Quick Start
