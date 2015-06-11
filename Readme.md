@@ -2,9 +2,7 @@
 
 A customized Node Oauth2 Server for AIS Framework.
 
-Thanks to Thom Seddon for creating Node Oauth2 Server module.
-
-## Node OAuth2 Server [![Build Status](https://travis-ci.org/thomseddon/node-oauth2-server.png?branch=2.0)](https://travis-ci.org/thomseddon/node-oauth2-server)
+Thanks to Thom Seddon for creating [Node Oauth2 Server](https://travis-ci.org/thomseddon/node-oauth2-server) module.
 
 Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with [express](http://expressjs.com/) in [node.js](http://nodejs.org/)
 
