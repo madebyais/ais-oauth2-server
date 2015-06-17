@@ -1,7 +1,7 @@
 {
   "name": "ais-oauth2-server",
   "description": "A customized Node Oauth2 Server for AIS Framework. Forked from Thom Seddon - Node Oauth2 Server https://npmjs.org/package/ais-oauth2-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "ais-oauth",
     "ais-oauth2",
